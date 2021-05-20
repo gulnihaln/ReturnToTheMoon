@@ -1,4 +1,32 @@
 /* base Styles --------------------------*/
 /* HEADER STYLES ----------------------- */
+.header {
+  background-color: #202020;
+  background-image: url('https://cdn.filestackcontent.com/RBhOS6DoRoabKXwa8tC8');
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.header .logo {
+  margin-bottom: 30px;
+}
+
+.header nav a {
+  border-bottom: 30px;
+  color: #ffffff;
+  margin: 0 8px;
+  padding: 5px 8px;
+  text-decoration: none;
+
+}
+
+.header nav a.active {
+  background: #ffffff;
+  color: #BE1E2D;
+
+}
 
 /* CONTENT STYLES ----------------------- */
